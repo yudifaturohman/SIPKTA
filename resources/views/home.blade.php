@@ -88,38 +88,49 @@
         </path>
     </svg>
 </section>
-<section class="section-statistic pt-36 pb-32 bg-[#00c4ff] text-white">
+<section class="section-statistic pt-36 pb-32 bg-[#00c4ff] text-white font-poppins">
     <div class="container w-full h-full mx-auto lg:px-20 px-7 lg:max-w-full md:max-w-full sm:max-w-full">
         <h2 class="text-2xl font-semibold text-center text-white mb-11 lg:text-4xl md:text-3xl lg:mb-11">Mekanisme
             Penanganan Kasus di LPA Prov.Banten
         </h2>
-        <p class="text-xl text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem corrupti,
-            mollitia
-            voluptatem sunt optio aliquam, fugit exercitationem maxime ut quae quidem, similique magnam? Facere
-            dolorem quas
-            in itaque eveniet amet quo laborum optio deleniti nesciunt iure provident corrupti sunt animi ipsam
-            sapiente
-            totam eius, necessitatibus quisquam autem. Non sunt, deserunt exercitationem voluptate dicta, aut ab ea
-            quod
-            molestias laudantium iure fugit fuga mollitia. Vel tenetur doloribus ipsa commodi, eligendi quae
-            obcaecati!
-            Nostrum earum pariatur a facere voluptate consequuntur officia, repudiandae et, quos laboriosam nam
-            deleniti
-            dicta harum, quo quam! Quo, non? Necessitatibus magnam, quae blanditiis nam similique, repudiandae dolor
-            enim at
-            ratione aliquam aut libero nulla molestias autem voluptatibus quam? Sit doloribus natus assumenda unde
-            sequi
-            vitae sunt recusandae, quidem vel quisquam maxime obcaecati sapiente, quod ab asperiores libero, fugit
-            fugiat
-            explicabo ducimus nostrum quo atque? Non suscipit ipsum quas dolorum nulla eaque eveniet repellendus
-            totam,
-            fugiat maxime animi quos nostrum facilis nobis dignissimos, impedit reiciendis libero consequatur eius
-            minima id
-            iusto. Minima tempore laudantium incidunt nostrum in porro harum officiis molestias neque inventore
-            dicta fugit
-            enim maxime, atque minus officia, id facere! Obcaecati ipsum ut in earum, ullam, laudantium natus non
-            magnam
-            dolor aliquid error optio ducimus libero totam.</p>
+
+        <h3 class="text-2xl font-semibold mb-3">PROSEDUR</h3>
+        <h3 class="text-lg underline underline-offset-4 mb-3">Penanganan Pengaduan Secara Langsung</h3>
+        <p class="text-base mb-3 text-justify">Yang dimaksud dengan Pengaduan Langsung adalah pelapor (korban /
+            keluarga/orang
+            lain/kelompok masyarakat/institusi)
+            datang secara langsung mengadukan/melaporkan adanya tindak kekerasan yang dialaminya sendiri/orang
+            lain/keluarganya/komunitasnya/institusinya.</p>
+        <h3 class="text-lg underline underline-offset-4 mb-3">Penanganan Pengaduan Tidak Langsung</h3>
+        <p class="text-base mb-5 text-justify">Yang dimaksud dengan Pengaduan Tidak Langsung adalah pelapor (korban atau
+            keluarga)
+            melaporkan tindak kekerasan yang
+            dialaminya sendiri atau anggota keluarganya melalui media telepon/hotline, surat/email ataupun
+            faximili. Termasuk pengaduan tidak langsung yaitu laporan yang dilakukan/dirujuk oleh masyarakat dan/atau
+            lembaga lain
+            mengenai adanya tindak kekerasan yang dialami oleh korban.</p>
+        <h3 class="text-2xl font-semibold mb-3">PENJANGKAUAN KORBAN (Outreach)</h3>
+        <p class="text-base mb-3 text-justify">Jika korban tidak bisa datang langsung, tetapi harus segera
+            ditindaklajnuti maka petugas akan mengkoordinasikan dengan
+            lembaga layanan yang relevan dengan sifat kedaruratan pelapor. Petugas menginformasikan layanan yang
+            ditawarkan sesuai
+            dengan kebutuhan korban dan tugas serta kapasitas lembaga, dimana tempat dan waktu kejadian. Bila pelapor
+            setuju
+            (consent ) maka akan ditindaklanjuti.</p>
+        <p class="text-base mb-3 text-justify">Outreach perlu memperhatikan aspek keamanan baik bagi korban, keluarga
+            atau petugas unit pelayanan. Outreach perlu
+            dilakukan dengan lebih terencana dan hati-hati untuk memastikan bahwa outreach tidak akan menyebabkan korban
+            dalam
+            situasi yang lebih buruk. Dalam kasus kekerasan terhadap isteri misalnya,
+            petugas harus memastikan bahwa ketika itu pelaku (suami korban) sedang tidak ada di rumah.</p>
+        <p class="text-base mb-5 text-justify">Outreach dapat pula tidak dilakukan di tempat tinggal korban bila korban
+            merasa tidak aman melakukan pengaduan dan
+            wawancara di rumah.</p>
+        <h3 class="text-2xl font-semibold mb-4">PENANGANAN PENGADUAN PADA UPT PPA PROVINSI KALIMANTAN TENGAH</h3>
+        <div class="img-mekanisme">
+            <img src="/img/mekanisme.jpg" alt="" class="w-full">
+        </div>
+
     </div>
 </section>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
