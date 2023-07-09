@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-blue-50;
+}
+.navbar-fixed {
+    @apply fixed z-[9999] -mt-[2px] bg-blue-50 text-white shadow-sm;
+}
+.hamburger-line {
+    @apply w-[30px] h-[2px] my-2 block bg-[#00c4ff];
+}
+.hamburger-active > span:nth-child(1) {
+    @apply rotate-45;
+}
+.hamburger-active > span:nth-child(3) {
+    @apply -rotate-45;
+}
+.hamburger-active > span:nth-child(2) {
+    @apply scale-0;
+}
