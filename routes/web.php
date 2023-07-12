@@ -36,11 +36,18 @@ Route::get('/', function () {
 
     $totalCases = $results->sum('total');
 
-    foreach ($results as $result) {
-        $gender = $result->jenis_kelamin_korban;
-        $total = $result->total;
-        $presentase = ($total / $totalCases) * 100;
+    if ($results->count()) {
+        foreach ($results as $result) {
+            $gender = $result->jenis_kelamin_korban;
+            $total = $result->total;
+            $presentase = ($total / $totalCases) * 100;
+        }
+    } else {
+        $gender = '-';
+        $presentase = 0;
     }
+
+
 
     return view('home', [
         'title' => 'SIPKTA',

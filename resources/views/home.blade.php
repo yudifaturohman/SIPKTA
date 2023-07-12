@@ -37,7 +37,7 @@
 
         <h2 class="text-2xl font-semibold text-center text-white mb-11 lg:text-4xl md:text-3xl lg:mb-20">Berdasarkan
             gender
-            <span class="text-3xl lg:text-5xl">{{ $presentase }}%</span> kekerasan terjadi kepada anak {{ $gender }}
+            <span class="text-3xl lg:text-5xl">{{ $presentase }}%</span> kekerasan terjadi kepada anak {{ $gender}}
         </h2>
 
         <div class="flex flex-wrap items-start justify-center w-full">
