@@ -37,8 +37,10 @@
                         <a href="/dashboard/cetakpdf" class="btn btn-danger mx-2"><i class="bi bi-filetype-pdf"></i>
                             Cetak PDF</a>
                         @endcan
+                        @if (auth()->user()->role === 3)
                         <a href="/dashboard/pengaduan/create" class="btn btn-primary"><i class="bi bi-plus-lg"></i> Buat
                             Pengaduan</a>
+                        @endif
 
                     </div>
                 </div>
