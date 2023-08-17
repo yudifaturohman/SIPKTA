@@ -64,12 +64,14 @@
                     </a>
                 </li>
                 @can('admin')
+                @if(auth()->user()->role == 3)
                 <li class="sidebar-item {{ Request::is('dashboard/management-user*') ? 'active' : false }}">
                     <a href="/dashboard/management-user" class="sidebar-link">
                         <i class="bi bi-grid-fill"></i>
                         <span>Management User</span>
                     </a>
                 </li>
+                @endif
                 @endcan
 
             </ul>
