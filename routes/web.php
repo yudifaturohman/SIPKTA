@@ -5,6 +5,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\LaporanpengaduanController;
 use App\Http\Controllers\PengaduanController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\UserManagementController;
 use App\Http\Controllers\UserprofileController;
 use App\Models\Pengaduan;
 use Illuminate\Support\Facades\DB;
@@ -73,6 +74,8 @@ Route::prefix('dashboard')->middleware('auth')->group(function () {
     Route::put('/pengaduan/tanggapan/{pengaduan:id}', [PengaduanController::class, 'konfirmasiTanggapan'])->middleware('admin');
     Route::put('/pengaduan/verifikasi/{pengaduan:id}', [PengaduanController::class, 'verifikasi'])->middleware('admin');
     Route::get('/cetakpdf', [PengaduanController::class, 'cetakPdf'])->middleware('admin');
+
+    Route::resource('/management-user', UserManagementController::class)->middleware('admin');
 });
 
 
