@@ -43,8 +43,8 @@ class UserManagementController extends Controller
         $validatedData = $request->validate([
             'nama' => ['required', 'string', 'max:60'],
             'email' => ['required', 'string', 'email', 'max:150', 'unique:' . User::class],
-            'nik' => ['required', 'numeric', 'min:16', 'max:16' ,'unique:' . User::class],
-            'nohp' => ['required', 'numeric', 'max:13', 'min:13'],
+            'nik' => ['required', 'numeric', 'min:16' ,'unique:' . User::class],
+            'nohp' => ['required', 'numeric', 'min:13'],
             'alamat' => ['required', 'string', 'max:150'],
             'password' => ['nullable', 'string'],
             'role' => ['nullable', 'integer'],
