@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('nama', 60);
             $table->string('email', 100)->unique();
-            $table->integer('nik', 16)->unique();
+            $table->bigInteger('nik')->unique();
             $table->string('image')->nullable();
             $table->string('nohp', 13);
             $table->string('alamat', 150);
